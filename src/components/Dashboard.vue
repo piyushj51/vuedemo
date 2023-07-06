@@ -2,7 +2,7 @@
   import axios from 'axios';
 
   export default {
-    name: 'ListUsers',
+    name: 'ListEntries',
     data() {
       return {
         entries: null,
