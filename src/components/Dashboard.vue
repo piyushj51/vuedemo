@@ -58,6 +58,9 @@
           <td>{{data.Category}}</td>
           <td>{{data.Description}}</td>
         </tr>
+        <tr v-if="searchText&&!searchData().length" > 
+          <th colspan="4">No Record Found</th>
+        </tr>
       </tbody>
     </table> 
   </div> 
